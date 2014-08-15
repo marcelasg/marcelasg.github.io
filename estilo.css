@@ -1,0 +1,77 @@
+/*ELEMENTOS*/
+body{
+	font-family: maiandra gd;
+	font-size: 18spx;
+}
+
+p,ul,li{
+	color: #8B668B;
+}
+
+ul{
+	list-style-type: none;
+}
+
+h1,h2{
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: Impact;
+}
+
+h1{
+	font-size: 50px; 
+	color:#0F0;
+
+}
+
+h2{
+	font-size: 25px;
+	color:#990000;
+}
+
+span{
+	font-size: 10px;
+	vertical-align: top;
+	color: gray;
+}
+
+footer{
+	color: gray;
+	font-size: 10px;
+}
+
+
+/*CLASSES*/
+.divdireita,.divesquerda{
+	vertical-align: middle;
+}
+
+.divdireita{
+	text-align: right;
+	direction: rtl;
+}
+
+.divesquerda{
+	text-align: left;
+	direction: ltr;
+}
+
+.imgcontato{
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+/*.divpai{ width: 100%;}*/
+
+/*IDS*/
+#perfil{
+	width: 100%;
+}
+
+#nome{
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #4F4F4F;
+}
